@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f9;
+}
+
+/* Basic Navbar */
+.navbar {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.nav-search {
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+/* Basic Page Layout */
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.box {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.login-box {
+  width: 350px;
+}
+
+.signup-box {
+  width: 450px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* Basic Forms */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensures padding doesn't break width */
+}
+
+.primary-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.primary-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Simple link at the bottom of forms */
+.switch-link {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer {
+  text-align: center;      /* Centers the text */
+  padding: 20px;
+  background-color: #333;  /* Matches your navbar background */
+  color: white;
+  width: 100%;
+  position: fixed;         /* Pins the footer to the bottom of the screen */
+  bottom: 0;
+  left: 0;
+}
+
+/* Add some bottom padding to your body so content isn't hidden behind the fixed footer */
+body {
+  padding-bottom: 60px; 
+}
